@@ -1,0 +1,40 @@
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainHeader__title {
+  height: 120px;
+  border-bottom: none;
+  padding-left: 130px;
+}
+
+body.dark .mainHeader__title {
+  border-bottom: none;
+}
+
+.mainHeader__darkMode {
+  width: 300px;
+  padding: 55px 130px 25px 0;
+}
+
+.containerFollowers {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 55px;
+  top: -105px;
+}
+
+.containerOverview {
+  padding: 0 50px;
+  margin: -75px auto 0;
+}
+
+.containerOverview-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerOverview-articles__card {
+  width: 280px;
+}
